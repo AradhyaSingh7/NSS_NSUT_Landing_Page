@@ -1,0 +1,149 @@
+.navbar-nav {
+      font-size: 1.5rem; 
+      gap: 1.5rem;          
+    }
+    .main-heading{
+        font-size: 5rem;
+        color:white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        font-weight: 600;
+    }
+    .caption-heading{
+        font-size: 2rem;
+        color:white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        font-weight: 600;
+    }
+      .main-heading1{
+        font-size: 3.5rem;
+        color:white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        font-weight: 550;
+    }
+    .caption-heading1{
+        font-size: 1.5rem;
+        color:white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        font-weight: 550;
+    }
+    .carousel-item img{
+        height: 360px;
+    }
+    .row{
+        margin-top: 2rem;
+    }
+    .row img{
+        margin-top: 1rem;
+    }
+    .fw-normal{
+        margin-top: 0.7rem;
+        color: #003366;
+        font-weight: 800;
+    }
+    .first-para{
+        margin-left: 1rem;
+    }
+    .sub-headings{
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+   
+
+.events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(205, 243, 255);
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.card-item {
+  width: 300px;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+}
+
+.card-item:hover {
+  border-color: red;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+}
+
+.card-img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.19rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5px;
+}
+.card-item.swiper-slide {
+  width: 250px ;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .card-item.swiper-slide {
+    width: 200px !important;
+  }
+  .main-heading{
+    font-size: 3.5rem;
+  }
+  .caption-heading{
+    font-size: 1.5rem;
+  }
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+  .sub-headings{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-item.swiper-slide {
+    width: 100%;
+  }
+   .main-heading{
+    font-size: 3rem;
+  }
+  .caption-heading{
+    font-size: 1rem;
+  }
+  .logo{
+    height: 60px;
+    width: 60px;
+  }
+    .sub-headings{
+    font-size: 1.75rem;
+  }
+
+  
+}
+.social{
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+}
